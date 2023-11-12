@@ -256,9 +256,25 @@ body{
         font-size: 14px;
     }
     body{
-        min-height: 100vh;
+        /* min-height: 100vh; */
     }
     .container {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        width: 85%;
+    }
+    .weather-details {
+        /* display: flex;
+        flex-flow: column; */
+    }
+    .weather-details .humidity {
+        padding-left: 0px;
+    }
+    .weather-details .wind {
+        padding-right: 0px;
     }
 }
